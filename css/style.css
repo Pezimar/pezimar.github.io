@@ -390,6 +390,7 @@ div#verkefni a div.verk p{
 }
 .popUp header {
   position: relative;
+  margin-top: 50px;
 }
 .popUp h3 {
   text-align: center;
@@ -398,19 +399,28 @@ div#verkefni a div.verk p{
 }
 .popUp .close {
   position: absolute;
-  top: 3px;
+  top: -30px;
   right: 0;
-  margin: 0;
+  margin: -20px 0 0 0;
+  background-color: #2aa0ae; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
-
-
-
-
-
-
+.popUp section {
+  position: relative;
+}
 #verkefni_list .popUp.active {
   display: block;
 }
+
+
+
+
 
 #ljod div.post {
   text-align: left;
@@ -500,7 +510,7 @@ div.block {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#verkefni_list div p {
+#verkefni_list div.togglePopUp p {
   margin: 27.4% auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;

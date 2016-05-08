@@ -40,8 +40,10 @@ $( document ).ready(function(){
 	});
 	$("#px_pr_index_chattBubble").delay( 3000 ).animate({'opacity':'1'},500);
 	//Verkefni
+	var activePopUp = false;
+	var project = "";
 	$(".togglePopUp").click(function() {
-		var project = $(this).data('proj');
+		project = $(this).data('proj');
 		$("#popUp" + project).toggleClass("active");
 	});
 });
