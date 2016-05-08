@@ -307,6 +307,7 @@ body {
 .quote h4 {
   font-size: 64px;
   margin: 0;
+  font-weight: 200;
 }
 .quote h5 {
   font-size: 44px;
@@ -681,7 +682,6 @@ body{
 }
 .quote h4 {
   font-size: 44px;
-  font-weight: 200;
 }
 .quote h5 {
   font-size: 22px;
