@@ -603,3 +603,167 @@ footer div p {
 .no_margin_bottom {
   margin-bottom: 0;
 }
+
+
+/*************************************************************************
+**************************************************************************
+****************************MEDIA QUERY***********************************
+**************************************************************************
+*************************************************************************/
+@media only screen
+and (min-width : 1224px) {
+
+body{
+  padding-top: 70px;
+}
+#header {
+  height: 70px;
+}
+.logo {
+  margin: 10px 0 0 0;
+}
+.flags {
+  margin: 0;
+  width: 45%;
+}
+.flags a img {
+  min-height: 20px;
+  float: right;
+  margin: 20px 15px;
+}
+.button_container {
+  top: 10px;
+  left: 2%;
+  width: 60px;
+}
+.button_container span {
+  height: 6px;
+}
+.fullcreen_nav nav {
+  top: 30%;
+}
+
+
+/**************************BODY*******************************/
+#main {
+  display: block;
+  max-width: 890px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main div h2 {
+  font-size: 36px;
+}
+
+#main div p {
+  font-family: 'Maiden Orange', cursive;
+  font-size: 24px;
+}
+#main div p#velkomin{
+  max-width: 50%;
+}
+.ghost_btn {
+  padding: 5px 30px;
+  border-width: 3px;
+  margin: 20px;
+  font-size: 34px;
+  transition: all .5s;
+}
+.ghost_btn:hover {
+  background-color: #246a74;
+  color: #FFF;
+}
+.line {
+  height: 3px;
+}
+.quote {
+  margin: 20px 0;
+}
+.quote h4 {
+  font-size: 44px;
+  font-weight: 200;
+}
+.quote h5 {
+  font-size: 22px;
+}
+
+
+div#verkefni h2 {
+  margin-top: 0;
+}
+div#verkefni a div.verk p{
+  display: none;
+}
+
+
+
+
+#verkefni_list .popUp {
+  color: #000;
+  font-size: 1em;
+  display: none;
+  position: fixed;
+  top: 28%;
+  left: 38%;
+  min-width: 300px;
+  min-height: 300px;
+  height: 60%;
+  width: 60%;
+  margin-left: -200px;
+  margin-top: -150px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 5px;
+  z-index: 10;
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+  overflow-y: scroll;
+}
+.popUp header {
+  position: relative;
+  margin-top: 50px;
+}
+.popUp h3 {
+  text-align: center;
+  font-size: 4em;
+  margin: 0;
+}
+.popUp .close {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  margin: -20px 0 0 0;
+  background-color: #2aa0ae; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.popUp section {
+  position: relative;
+}
+#verkefni_list .popUp.active {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
