@@ -494,8 +494,12 @@ div.block {
   width: calc(100% + 20px);
   padding: 0;
   margin: 0 -10px 0 -10px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 #verkefni_list div{
   font-size: 64px;
@@ -682,88 +686,16 @@ body{
 }
 .quote h4 {
   font-size: 44px;
+
 }
 .quote h5 {
   font-size: 22px;
 }
-
-
 div#verkefni h2 {
   margin-top: 0;
 }
 div#verkefni a div.verk p{
   display: none;
 }
-
-
-
-
-#verkefni_list .popUp {
-  color: #000;
-  font-size: 1em;
-  display: none;
-  position: fixed;
-  top: 28%;
-  left: 38%;
-  min-width: 300px;
-  min-height: 300px;
-  height: 60%;
-  width: 60%;
-  margin-left: -200px;
-  margin-top: -150px;
-  background-color: #ffffff;
-  padding: 25px;
-  border-radius: 5px;
-  z-index: 10;
-  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
-  overflow-y: scroll;
-}
-.popUp header {
-  position: relative;
-  margin-top: 50px;
-}
-.popUp h3 {
-  text-align: center;
-  font-size: 4em;
-  margin: 0;
-}
-.popUp .close {
-  position: absolute;
-  top: -30px;
-  right: 0;
-  margin: -20px 0 0 0;
-  background-color: #2aa0ae; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-.popUp section {
-  position: relative;
-}
-#verkefni_list .popUp.active {
-  display: block;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
