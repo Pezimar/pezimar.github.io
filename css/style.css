@@ -3,6 +3,7 @@ font-family: 'Alegreya SC', serif;
 font-family: 'Economica', sans-serif;
 font-family: 'Maiden Orange', cursive;
 font-family: 'Just Another Hand', cursive;
+font-family: 'Inconsolata', ;
 /****************HEADER****************/
 
 #header {
@@ -433,7 +434,7 @@ div#verkefni a div.verk p{
   font-size: 56px;
   margin: 0 auto;
 }
-p.date {
+#ljod p.date {
   font-size: 66px;
   font-weight: bold;
   display: block;
@@ -448,6 +449,11 @@ p.date {
   -webkit-transform: rotate(8deg);
           transform: rotate(8deg);
 }
+.not-center{
+  display: inline-block;
+  text-align: left;
+}
+
 #impossible img {
   margin-top: 20px;
 }
@@ -534,6 +540,9 @@ div.block {
   margin-top: -500px;
 }
 
+.update{
+  text-align: center;
+}
 .update_date {
   font-size: 66px;
   font-weight: bold;
@@ -541,7 +550,8 @@ div.block {
   margin-bottom: -40px;
 }
 .update_content {
-  font-family: 'Economica', sans-serif !important;
+  font-family: 'Inconsolata', cursive !important;
+  display: inline-block;
 }
 .seperator{
   height: 4px;
@@ -647,9 +657,19 @@ body{
 .fullcreen_nav nav {
   top: 30%;
 }
+.fullcreen_nav nav {
+  font-size:32px;
+}
+
+
+#px_impossible {
+  background-position-y: 25%;
+}
 
 
 /**************************BODY*******************************/
+
+
 #main {
   display: block;
   max-width: 890px;
@@ -697,5 +717,38 @@ div#verkefni h2 {
 div#verkefni a div.verk p{
   display: none;
 }
+#verkefni_list .popUp {
+  margin-top: -100px;
+  height: 78%;
+  width: 50%;
+}
 
+div#ljod {
+  height: 340px;
+}
+#ljod div.post {
+  margin-top: 30px;
+}
+#ljod div.post p{
+  font-size: 24px;
+  margin: 0 auto;
+}
+#ljod img {
+  width: 190px;
+  margin: 0 50px 0 30px;
+}
+
+.update{
+  margin-bottom: 40px;
+}
+#px_text_ljod{
+  margin-left: 200px;
+}
+.update_date {
+  margin-bottom: -10px;
+}p.update_content {
+  margin-bottom: 20px;
+}
+.seperator {
+  margin: 0 auto;
 }
