@@ -195,12 +195,17 @@ font-family: 'Inconsolata', ;
   margin-left: 50%;
 }
 #px_pr_index_chattBubble {
-  background-image: url("../is/imgIs/chatBubble.png");
   height: 200px;
   width: 300px;
   margin-top: 20px;
   margin-left: calc(25% + 100px);
   opacity: 0;
+}
+.px_pr_index_chattBubbleIS {
+  background-image: url("../is/imgIs/chatBubble.png");
+}
+.px_pr_index_chattBubbleEN {
+  background-image: url("../is/imgEn/chatBubble.png");
 }
 #px_about {
   background-image: url("../img/about_parallax_header_bg_small.jpg");
